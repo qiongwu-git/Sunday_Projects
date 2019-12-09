@@ -7,3 +7,4 @@ Contents:
 - Google_ML_dataset.ipynb is a deep learning neutral network model training practice. The dataset is taken from the Google ML "Intro to Fairness" >> Programming Exercise.
 - Text_Processing.ipynb is a little collection of text cleaning techniques in preparation for NLP and sentiment analysis.
 - geomap.ipynb makes a choreopleth map using geopandas, pandas and matplotlib.
+- random_forest_regression is a simplied walk-through of how random forest regression works.
