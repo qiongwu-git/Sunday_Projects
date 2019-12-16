@@ -8,3 +8,4 @@ Contents:
 - Text_Processing.ipynb is a little collection of text cleaning techniques in preparation for NLP and sentiment analysis.
 - geomap.ipynb makes a choreopleth map using geopandas, pandas and matplotlib.
 - random_forest_regression is a simplified walk-through of how random forest regression works.
+- CAC&CLTV is an example project inspired by Tony Yiu on simulating market campaigns and customer lifetime value.
