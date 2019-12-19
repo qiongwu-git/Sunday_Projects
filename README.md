@@ -10,3 +10,4 @@ Contents:
 - random_forest_regression is a simplified walk-through of how random forest regression works.
 - CAC&CLTV is an example project inspired by Tony Yiu on simulating market campaigns and customer lifetime value.
 - Python selenium is a powerful tool for performing automation testing, hence automating_testing.ipynb is an example of how we can make user selenium to mimic user journey and performa testing.
+- Visualize_a_decision_tree.ipynb is to show how one can create a visualization of decision tree with pydotplus and graphviz.
