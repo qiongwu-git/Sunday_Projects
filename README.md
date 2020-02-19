@@ -13,4 +13,5 @@ Contents:
 - Visualize_a_decision_tree.ipynb is to show how one can create a visualization of decision tree with pydotplus and graphviz.
 - Forecast-Copy1.ipynb uses ARIMA for time series data in pandas to predict future sales. 
 - ARIMA(no_seasonality) merely for documentation's sake. Credit all to medium post mentioned in the file. An attempt I made based on the dataset I had at hand with auto_arima: see <auto_arima.ipynb>.
-House Prices.ipynb is the first attempt of Kaggle housing prices competition.
+- House Prices.ipynb is the first attempt of Kaggle housing prices competition.
+- Spotify.ipynb is a work-in-progress project.
