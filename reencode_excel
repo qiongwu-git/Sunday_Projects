@@ -1,0 +1,21 @@
+import pandas as pd
+from tqdm.notebook import tqdm
+
+tqdm.pandas()
+
+print('Loading file...', end='')
+data = pd.read_excel('test.xlsx', sheet_name=None)
+print(' done')
+writer = pd.ExcelWriter('test-output.xlsx')
+for sheet_name, df in data.items():
+    new_df = df.copy()
+    for col in tqdm(df.columns, total=df.columns.shape[0]):
+        idx = df[col].map(lambda v: type(v) is str)
+        new_df.loc[idx, col] = df[col][idx].apply(
+            lambda v: v.encode('mac-roman').decode('utf-8')
+        )
+    new_df.to_excel(writer, sheet_name=sheet_name, index=False)
+
+print('Writing result...', end='')
+writer.save()
+print(' done')
