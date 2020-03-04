@@ -15,3 +15,4 @@ Contents:
 - ARIMA(no_seasonality) merely for documentation's sake. Credit all to medium post mentioned in the file. An attempt I made based on the dataset I had at hand with auto_arima: see <auto_arima.ipynb>.
 - House Prices.ipynb is the first attempt of Kaggle housing prices competition.
 - Spotify.ipynb is a work-in-progress project.
+- reencode_excel is a quick script to reencode all excel file (sheets) in order to display accented letters properly.
